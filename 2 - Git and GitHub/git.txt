@@ -22,3 +22,21 @@ git branch -a
 
 //switching to a different branch
 git checkout branchname
+
+//merging branch to the main(master) branch
+git merge branchname
+
+//removing branch
+git branch -d branchname
+
+//connecting to github
+git remote add origin [websitename]
+
+//changing it to main for consistency
+git branch -M main
+
+//pushes our local repository to remote repository -Need to use after creating remote repository
+git push -u origin main
+
+//pushes to our remote repository
+git push
