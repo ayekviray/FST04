@@ -21,5 +21,3 @@ touch [filename.extension]
 
 # Remove files
 rm [filename.extension]
-
---end--
