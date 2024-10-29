@@ -13,3 +13,12 @@ git init
 git add .
 
 //git commit -m "Message"
+
+//Add a branch to our repository
+git branch "branchname"
+
+//list of all branch
+git branch -a
+
+//switching to a different branch
+git checkout branchname
