@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h2>HTML Forms</h2>
+    <form>
+      <!-- Word Wrap for Code Command - Alt + Z -->
+      <!-- Text Field Input with Label -->
+      <!-- Input Field for Username -->
+      <div>
+        <label for="username">(*)Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="John Doe"
+          required
+        />
+      </div>
+      <br />
+
+      <!-- Input Field for Emails -->
+      <div>
+        <label for="email">(*)Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@email.com"
+          required
+        />
+      </div>
+      <br />
+
+      <!-- Input Field for Password -->
+      <div>
+        <label for="password">(*)Password:</label>
+        <input type="password" id="password" required />
+      </div>
+      <br />
+
+      <!-- Input Field for Numbers -->
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="0" max="18" />
+      </div>
+      <br />
+
+      <!-- Text Area -->
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message" cols="25" rows="5"></textarea>
+      </div>
+      <br />
+
+      <!-- Drop Down List -->
+      <div>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="" disabled selected>Please Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <br />
+
+      <!-- Radio Buttons -->
+      <div>
+        <label for="color">Favorite Color:</label>
+        <br />
+        <input name="color" type="radio" value="red" id="red" />
+        <label for="red">Red</label>
+        <br />
+        <input name="color" type="radio" value="blue" id="blue" />
+        <label for="blue">Blue</label>
+        <br />
+        <input name="color" type="radio" value="green" id="green" />
+        <label for="green">Green</label>
+      </div>
+      <br />
+
+      <!-- Multi Cursor -->
+      <!-- Checkboxes -->
+      <div>
+        <label for="todo">To Do List</label><br />
+        <input name="todo" type="checkbox" value="grocery" id="grocery" />
+        <label for="grocery" id="grocery">Grocery</label><br />
+        <input name="todo" type="checkbox" value="cooking" id="cooking" />
+        <label for="cooking" id="cooking">Cooking</label><br />
+        <input name="todo" type="checkbox" value="laundry" id="laundry" />
+        <label for="laundry" id="laundry">Laundry</label>
+      </div>
+      <br />
+
+      <!-- Reset Button, clears all entry, does not send -->
+      <button type="reset">Reset</button>
+      <br />
+      <!-- Submit, clears and sends the entry -->
+      <!-- Results can be in the URL -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

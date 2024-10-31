@@ -1,0 +1,102 @@
+/* Declaration Blocks - {} - curly braces */
+/* CSS is a combination of property: value; */
+#text-styling {
+  font-family: "Times New Roman", Times, serif;
+
+  /* font weight */
+  /* word values */
+  font-weight: bolder;
+  font-weight: lighter;
+  font-weight: bold;
+  /* Default */
+  font-weight: normal;
+
+  /* numerical values */
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 1000;
+  font-weight: normal;
+
+  /* font style */
+  font-style: italic;
+  font-style: normal;
+  font-style: oblique;
+
+  /* text align */
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
+
+  /* Line Height */
+  line-height: 5;
+  line-height: 10;
+  line-height: 50%;
+  line-height: 90%;
+  line-height: 100%;
+  line-height: normal;
+  line-height: 24px;
+
+  /* Letter Spacing */
+  letter-spacing: 4px;
+  letter-spacing: 12px;
+  letter-spacing: -4px;
+  letter-spacing: normal;
+}
+
+#text-decoration {
+  /* Text Decorations */
+  text-decoration: none; /* default */
+  /* text-decoration: line-through;
+  text-decoration: overline;
+  text-decoration: underline; */
+
+  /* Text Decoration Style */
+  text-decoration-style: solid; /* default */
+  /* text-decoration-style: double;
+  text-decoration-style: dotted;
+  text-decoration-style: dashed;
+  text-decoration-style: wavy; */
+
+  /* Text Decoration Color */
+  /* text-decoration-color: gold;
+  text-decoration-color: green; */
+
+  /* Text Decoration Thickness */
+  /* text-decoration-thickness: 10px;
+  text-decoration-thickness: 2px; */
+
+  /* Text Decoration Combined (Style, Color, Thickness) */
+  text-decoration: underline overline line-through;
+  text-decoration: line-through wavy gold;
+  text-decoration: overline dashed 10px;
+  text-decoration: none;
+}
+
+#colors {
+  /* Keyword Color Values */
+  /* color: red;
+  color: gold;
+  color: goldenrod;
+  background-color: red; */
+  /* RGB - Red, Green, Blue */
+  /* color: rgb(146, 97, 97); */
+  /* background-color: rgb(23, 50, 101); */
+  /* RGBA - Red, Gree, Blue, Alpha */
+  /* Alpha - Refers to the Opacity or Transparency */
+  /* color: rgba(0, 0, 0, 0.151); */
+  /* Hexadecimal Values */
+  /* 16 Base Numbering System */
+  /* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F */
+  /* A - 10 */
+  /* B - 11 */
+  /* C - 12 */
+  /* D - 13 */
+  /* E - 14 */
+  /* F - 15 */
+  /* Hexadecimal Value - #000000 */
+  color: #aa0000;
+  /* Add Alpha to Hexadecimals */
+  color: #00f00000;
+}

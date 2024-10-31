@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Ways to Put CSS</title>
+    <!-- Internal Styling -->
+    <!-- Selector - The HTML you want to target -->
+    <!-- ID - Identifier - specific elements -->
+    <!-- Class - multiple elements to target -->
+    <style>
+      #internal {
+        color: blue;
+      }
+    </style>
+    <link rel="stylesheet" href="1-three ways.css" />
+  </head>
+  <body>
+    <!-- C - Cascading -->
+    <!-- S - Style -->
+    <!-- S - Sheets -->
+    <p style="color: red">Inline CSS</p>
+
+    <p id="internal">Internal CSS</p>
+
+    <p id="external">External CSS</p>
+  </body>
+</html>
