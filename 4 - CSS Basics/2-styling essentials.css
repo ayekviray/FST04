@@ -99,4 +99,27 @@
   color: #aa0000;
   /* Add Alpha to Hexadecimals */
   color: #00f00000;
+  color: #00f000ff;
+}
+
+#absolute-unit-px {
+  /* Default px size */
+  font-size: 16px;
+  font-size: 36px;
+  font-size: 8px;
+  font-size: 16px;
+}
+
+#relative-unit-em {
+  /* Default em size */
+  font-size: 1em;
+  /* em will be multiplied to the value of its parent */
+  font-size: 2em;
+}
+
+#relative-unit-rem {
+  /* re will be multiplied to the value of the root element font size */
+  /* Default em size */
+  font-size: 1rem;
+  font-size: 2rem;
 }

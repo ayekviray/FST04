@@ -1,0 +1,50 @@
+/* Element Selector use the HTML Tag Names */
+span {
+  background-color: gold;
+}
+
+/* Class Selector uses class to get HTML Elements */
+.intro-paragraphs {
+  background-color: red;
+}
+
+/* ID Selector uses the ID of HTML Elements */
+#main-heading {
+  background-color: violet;
+}
+
+/* Universal Selector selects everything */
+* {
+  background-color: skyblue;
+}
+
+/* Grouping Selector, selects multiple elements at once */
+#one,
+#two {
+  color: purple;
+}
+.about-content,
+h1,
+h2 {
+  font-size: 32px;
+}
+
+/* Descendant Selector, calls frm Ancestor/Descendands Elements */
+.article-container p {
+  background-color: royalblue;
+}
+
+/* Pseudo Classes */
+/* : (link, hover, active, visited */
+a:link {
+  color: green;
+}
+a:hover {
+  background-color: pink;
+}
+a:active {
+  background-color: gold;
+}
+a:visited {
+  color: darkred;
+}
