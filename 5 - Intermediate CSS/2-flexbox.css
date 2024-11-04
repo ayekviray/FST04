@@ -1,0 +1,52 @@
+/* Responsive */
+.flexContainer {
+  display: flex;
+  /* Y or Cross Axis */
+  flex-direction: column;
+  /* Default */
+  /* X or Main Axis */
+  flex-direction: row;
+  /* Justify Content - alignment of the items inside your parent */
+  justify-content: flex-end;
+  justify-content: center;
+  /* Default */
+  justify-content: flex-start;
+  /* All Sides will be equal */
+  justify-content: space-between;
+  /* Middle spaces are equal */
+  justify-content: space-around;
+  /* Amount of items in your container */
+  justify-content: space-evenly;
+  justify-content: flex-start;
+  /* Align-items - alignment of items on y axis*/
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  /* Default */
+  align-items: stretch;
+  /* Flex-wrap */
+  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
+  /* Default */
+  flex-wrap: nowrap;
+  /* Column and Row Gap */
+  gap: 20px;
+  column-gap: 50px;
+  row-gap: 100px;
+}
+
+/* Willingness of the item/element to grow. */
+.flexItem1 {
+  flex-grow: 0;
+  /* Will not grow. (Default) */
+  /* flex-grow: 1; */
+  /* Willing to grow */
+}
+
+/* Willingness of the item/element to shrink. */
+.flexItem1 {
+  flex-shrink: 1;
+  /* Willing to shrink  Default*/
+  flex-shrink: 0;
+  /* Not willing to shrink */
+}
